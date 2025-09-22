@@ -49,6 +49,60 @@ function App() {
             Aquí podrás organizar, inscribirte y seguir todos los torneos de FC26.
           </p>
         </section>
+
+        {/* Próximos Torneos */}
+        <section id="torneos" className="mb-10">
+          <h2 className="text-2xl font-bold mb-6 text-center">⚽ Próximos Torneos</h2>
+          <div className="grid md:grid-cols-3 gap-6">
+            {/* Tarjeta 1 */}
+            <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d"
+                alt="Torneo Apertura"
+                className="w-full h-40 object-cover"
+              />
+              <div className="p-4">
+                <h3 className="text-lg font-bold">Torneo Apertura</h3>
+                <p className="text-sm text-gray-600">Inicio: Marzo 2025</p>
+                <button className="mt-3 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-md">
+                  Inscribirme
+                </button>
+              </div>
+            </div>
+
+            {/* Tarjeta 2 */}
+            <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d"
+                alt="Copa Juvenil"
+                className="w-full h-40 object-cover"
+              />
+              <div className="p-4">
+                <h3 className="text-lg font-bold">Copa Juvenil</h3>
+                <p className="text-sm text-gray-600">Inicio: Abril 2025</p>
+                <button className="mt-3 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-md">
+                  Inscribirme
+                </button>
+              </div>
+            </div>
+
+            {/* Tarjeta 3 */}
+            <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1604908176997-52562a37c2ec"
+                alt="Liga Profesional"
+                className="w-full h-40 object-cover"
+              />
+              <div className="p-4">
+                <h3 className="text-lg font-bold">Liga Profesional</h3>
+                <p className="text-sm text-gray-600">Inicio: Mayo 2025</p>
+                <button className="mt-3 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-md">
+                  Inscribirme
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
 
       {/* Footer */}
@@ -60,3 +114,4 @@ function App() {
 }
 
 export default App;
+
